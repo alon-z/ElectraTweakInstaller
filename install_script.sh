@@ -6,7 +6,12 @@ OLD_PWD=$pwd
 #tar --lzma -xvf $1 -C $1.dir/
 cd $1.dir
 ar x ../$1
-tar --lzma -xvf data.tar.*
+
+if [[ $(ls | grep data.tar.lzma ) ]]; then
+tar --lzma -xvf data.tar.lzma
+else
+tar -xvf data.tar.*
+fi
 
 if find . | grep Library; then
 cd Library/
