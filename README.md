@@ -10,7 +10,9 @@ tar
 ar (not comming by default with macOS)
 
 Usage:
+
 ./search_and_download_tweak.sh name-of-tweak-to-search
+
 ./install_script.sh nameOfDeb.deb ip.of.your.iphone
 
 Thanks to cydiaupdates.org for providing a source to download deb files.
