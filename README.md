@@ -20,3 +20,6 @@ Thanks to r/reddit for the google spreadsheet of compatible tweaks:)
 
 PRs are always welcome!
 If someone want to create an app for it, it will be the best. I don't have the time right now to do it.
+
+Added GPL-3.0 license to the project, you can use the code but must provide the source too.
+Sharde the code, open source!
